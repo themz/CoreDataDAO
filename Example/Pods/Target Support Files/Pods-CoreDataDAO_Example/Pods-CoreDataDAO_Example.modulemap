@@ -1,0 +1,6 @@
+framework module Pods_CoreDataDAO_Example {
+  umbrella header "Pods-CoreDataDAO_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

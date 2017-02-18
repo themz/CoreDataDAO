@@ -1,0 +1,16 @@
+PODS:
+  - CoreDataDAO (0.1.0)
+
+DEPENDENCIES:
+  - CoreDataDAO (from `../`)
+
+EXTERNAL SOURCES:
+  CoreDataDAO:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CoreDataDAO: db4fde1f28ea14df7dbdf16edd42ccb21ef3c344
+
+PODFILE CHECKSUM: 37a020d1fb7cc225ff8f5bb788ad777d71ea1fed
+
+COCOAPODS: 1.2.0
