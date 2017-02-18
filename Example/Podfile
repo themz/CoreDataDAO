@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CoreDataDAO_Example' do
+  pod 'CoreDataDAO', :path => '../'
+
+  target 'CoreDataDAO_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
