@@ -12,7 +12,10 @@
 		3FCBF12995A27D85B167B80BF29009EE /* Pods-CoreDataDAO_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71223AB88B6CE591E0B49AD53784BF18 /* Pods-CoreDataDAO_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AD48BC463F298E39E428347968DB49A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5122DAAC6191B259E4DCF1A3CE08F271 /* Pods-CoreDataDAO_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9301168E864ABC3AF970CFB6A463DA /* Pods-CoreDataDAO_Example-dummy.m */; };
-		BDC8EE4D07C5CA8E22DE57E688ED850E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B2531831EFE815A73735C6D40E2F5 /* ReplaceMe.swift */; };
+		745442531E5845A600864062 /* DAOTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745442521E5845A600864062 /* DAOTranslator.swift */; };
+		745442551E58473100864062 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745442541E58473100864062 /* Entry.swift */; };
+		745442571E5847B500864062 /* CoreDataDAOTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745442561E5847B500864062 /* CoreDataDAOTranslator.swift */; };
+		745442591E58490B00864062 /* CoreDataDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745442581E58490B00864062 /* CoreDataDAO.swift */; };
 		DCD69B0445B57A0C58CC5052D937BEEA /* Pods-CoreDataDAO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0BAC8C313A2855B71DBC0B6FC428A9 /* Pods-CoreDataDAO_Tests-dummy.m */; };
 		DDBA2A7698232EDC82700A629A9741CE /* CoreDataDAO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0D02BD66840478E40340BABAA993D /* CoreDataDAO-dummy.m */; };
 		EEF76AC94EA4F6BB0545AA9974B750AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -39,7 +42,6 @@
 		29BEB354FBF407C00ACBCF0F9036D143 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E991C3932C8CDEDE0486EA3358BB241 /* Pods-CoreDataDAO_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoreDataDAO_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3B9301168E864ABC3AF970CFB6A463DA /* Pods-CoreDataDAO_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoreDataDAO_Example-dummy.m"; sourceTree = "<group>"; };
-		3D8B2531831EFE815A73735C6D40E2F5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		4892F4F28E899BE8D9BFB383870D003F /* CoreDataDAO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreDataDAO-prefix.pch"; sourceTree = "<group>"; };
 		50C0D02BD66840478E40340BABAA993D /* CoreDataDAO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreDataDAO-dummy.m"; sourceTree = "<group>"; };
 		571022B07D9C7861A1B75465B221D9B0 /* Pods-CoreDataDAO_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoreDataDAO_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -48,6 +50,10 @@
 		60054339AF7E8F262879DC646DFF72BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71223AB88B6CE591E0B49AD53784BF18 /* Pods-CoreDataDAO_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoreDataDAO_Example-umbrella.h"; sourceTree = "<group>"; };
 		7238A24FCD172DD50AE3F14E477D5B39 /* Pods-CoreDataDAO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CoreDataDAO_Tests.modulemap"; sourceTree = "<group>"; };
+		745442521E5845A600864062 /* DAOTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOTranslator.swift; sourceTree = "<group>"; };
+		745442541E58473100864062 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		745442561E5847B500864062 /* CoreDataDAOTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDAOTranslator.swift; sourceTree = "<group>"; };
+		745442581E58490B00864062 /* CoreDataDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDAO.swift; sourceTree = "<group>"; };
 		790679F7A542AA55D5C05CF730C25989 /* Pods-CoreDataDAO_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoreDataDAO_Example-resources.sh"; sourceTree = "<group>"; };
 		7A2358E05F2EDAF06682B6AF1AEBEF9B /* Pods-CoreDataDAO_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoreDataDAO_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F90F3A7F15C50FDC4BA63624E75A88B /* CoreDataDAO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreDataDAO.xcconfig; sourceTree = "<group>"; };
@@ -157,7 +163,10 @@
 		A20975F89D244AE0852FE9094ED11054 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3D8B2531831EFE815A73735C6D40E2F5 /* ReplaceMe.swift */,
+				745442521E5845A600864062 /* DAOTranslator.swift */,
+				745442541E58473100864062 /* Entry.swift */,
+				745442561E5847B500864062 /* CoreDataDAOTranslator.swift */,
+				745442581E58490B00864062 /* CoreDataDAO.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -356,8 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745442551E58473100864062 /* Entry.swift in Sources */,
 				DDBA2A7698232EDC82700A629A9741CE /* CoreDataDAO-dummy.m in Sources */,
-				BDC8EE4D07C5CA8E22DE57E688ED850E /* ReplaceMe.swift in Sources */,
+				745442531E5845A600864062 /* DAOTranslator.swift in Sources */,
+				745442591E58490B00864062 /* CoreDataDAO.swift in Sources */,
+				745442571E5847B500864062 /* CoreDataDAOTranslator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
