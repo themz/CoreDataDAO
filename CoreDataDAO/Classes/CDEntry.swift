@@ -9,6 +9,8 @@
 import Foundation
 import CoreData
 
-class Entry: NSManagedObject {
-    
+@objc(CDEntry)
+
+class CDEntry: NSManagedObject {
+    @NSManaged var id: String
 }
