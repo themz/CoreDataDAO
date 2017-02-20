@@ -11,6 +11,6 @@ import CoreData
 
 @objc(CDEntry)
 
-class CDEntry: NSManagedObject {
-    @NSManaged var id: String
+open class CDEntry: NSManagedObject {
+    @NSManaged open var id: String
 }

@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class CoreDataDAOTranslator<EntityType, EntryType> {
+open class CoreDataDAOTranslator<EntityType, EntryType> {
     
     public init() {}
     

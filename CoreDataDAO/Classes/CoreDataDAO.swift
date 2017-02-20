@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class CoreDataDAO<Entity, Entry: CDEntry> {
+public class CoreDataDAO<Entity, Entry: CDEntry> {
     private let translator: CoreDataDAOTranslator<Entity, Entry>
     
     /// Core Data стек
@@ -48,7 +48,7 @@ class CoreDataDAO<Entity, Entry: CDEntry> {
         try! coordinator.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: url, options: nil)
         
         // NSManagedObjectContext
-        self.context = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
+        self.context = NSManagedObjectContext(concurrencyType: .privateQueueConcurrencyType)
         context.persistentStoreCoordinator = self.coordinator
     }
     
